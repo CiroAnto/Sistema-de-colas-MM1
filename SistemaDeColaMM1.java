@@ -38,13 +38,13 @@ public class SistemaDeColaMM1 {
         double ls=probabilidad/(1-probabilidad);
         
         System.out.println("\tDatos: ");
-        System.out.println("lamda λ: "+l);
-        System.out.println("U µ: " +u);
+        System.out.println("Media de llegada λ: "+l);
+        System.out.println("Media de servicio µ: " +u);
         System.out.println("Probabilidad: " +probabilidad);
-        System.out.println("Wq: "+wq);
-        System.out.println("Lq: "+lq);
-        System.out.println("WS: "+ws);
-        System.out.println("Ls: " +ls);
+        System.out.println("Tiempo de clientes de espera en cola Wq: "+wq);
+        System.out.println("Numero promedio de clientes en sistema Lq: "+lq);
+        System.out.println("Tiempo de espera de un cliente en sistema Ws: "+ws);
+        System.out.println("Numero promedio de clientes en la cola Ls: " +ls);
         System.out.println("");
         
         System.out.println("\tParte dinamica: ");
